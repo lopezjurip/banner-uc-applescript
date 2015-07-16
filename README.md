@@ -28,6 +28,14 @@ Es posible saltarse el paso de ingresar la lista de los ramos si la *hardcodeamo
 set input to "12431 12501 11965"
 ```
 
+## ¿Cómo pasar de `.applescript` a `.app`?
+
+* Abrir la aplicación **Automator** (viene por defecto en OSX).
+* *Archivo* -> *Nuevo* -> *Flujo de trabajo* ó *Work flow*.
+* Seleccionamos en la lista: `Ejecutar AppleScript` o `Run AppleScript`.
+* Pegamos/modificamos el código.
+* Lo guardamos donde nos acomode con formato: `Aplicación`.
+
 ## Colaboración:
 
 Por medio de pull-requests o a mi correo pelopez2@uc.cl
