@@ -18,13 +18,14 @@ https://github.com/mrpatiwi/banner-uc-applescript/releases/latest
 
 ## Uso avanzado:
 
-Es posible saltarse el paso de ingresar la lista de los ramos si la *hardcodeamos* dentro del [tercer script](3%20-%20Ramos.applescript).
+Es posible saltarse el paso de ingresar la lista de los ramos si la *hardcodeamos* dentro del [tercer script](3%20-%20Ramos.applescript). El `delay` es para asegurarnos que **Chrome** esté activo y no el **Finder**.
 
 ```applescript
 -- Enter user input:
 -- set input to the text returned of (display dialog "Tus ramos (ej: 12431 12501 11965)" default answer "")
 
--- Hardcode courses:
+-- Hardcode courses (delay may depend on your computer):
+delay 1
 set input to "12431 12501 11965"
 ```
 
