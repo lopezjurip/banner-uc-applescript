@@ -20,14 +20,6 @@ https://github.com/mrpatiwi/banner-uc-applescript/releases/latest
 
 Es posible saltarse el paso de ingresar la lista de los ramos si la *hardcodeamos* dentro del [tercer script](3%20-%20Ramos.applescript).
 
-### Demo avanzado
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=0Xm_jEum2AI
-" target="_blank"><img src="http://img.youtube.com/vi/0Xm_jEum2AI/0.jpg"
-alt="Banner UC Script demo avanzado" width="240" height="180" border="10" /></a>
-
-> Presiona **[aquí](https://www.youtube.com/watch?v=0Xm_jEum2AI)** si no puedes verlo.
-
 ```applescript
 -- Enter user input:
 -- set input to the text returned of (display dialog "Tus ramos (ej: 12431 12501 11965)" default answer "")
@@ -35,6 +27,14 @@ alt="Banner UC Script demo avanzado" width="240" height="180" border="10" /></a>
 -- Hardcode courses:
 set input to "12431 12501 11965"
 ```
+
+### Demo avanzado
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=0Xm_jEum2AI
+" target="_blank"><img src="http://img.youtube.com/vi/0Xm_jEum2AI/0.jpg"
+alt="Banner UC Script demo avanzado" width="240" height="180" border="10" /></a>
+
+> Presiona **[aquí](https://www.youtube.com/watch?v=0Xm_jEum2AI)** si no puedes verlo.
 
 ## ¿Cómo pasar de `.applescript` a `.app`?
 
