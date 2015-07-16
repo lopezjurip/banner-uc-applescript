@@ -3,6 +3,6 @@ on run {input, parameters}
         activate
         
         execute front window's active tab javascript "document.getElementById('st_path_id').selectedIndex = 1;"
-        execute front window's active tab javascript "document.querySelectorAll('input[value=Enviar]')[0].click();"
+        execute front window's active tab javascript "document.querySelector('input[value=Enviar]').click();"
     end tell
 end run
