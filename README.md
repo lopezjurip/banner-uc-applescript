@@ -16,6 +16,18 @@ alt="Banner UC Script demo" width="240" height="180" border="10" /></a>
 
 https://github.com/mrpatiwi/banner-uc-applescript/releases/latest
 
+## Uso avanzado:
+
+Es posible saltarse el paso de ingresar la lista de los ramos si la *hardcodeamos* dentro del [tercer script](3%20-%20Ramos.applescript).
+
+```applescript
+-- Enter user input:
+-- set input to the text returned of (display dialog "Tus ramos (ej: 12431 12501 11965)" default answer "")
+
+-- Hardcode courses:
+set input to "12431 12501 11965"
+```
+
 ## Colaboración:
 
 Por medio de pull-requests o a mi correo pelopez2@uc.cl
