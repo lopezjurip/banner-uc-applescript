@@ -1,6 +1,6 @@
 # Banner UC Applescript
 
-**Solo funciona en Mac OSX** (probado en Yosemite 10.10.4)
+**Solo funciona en Mac OSX** (probado en Yosemite 10.10.4) y en **Google Chrome**.
 
 ## Demo
 
